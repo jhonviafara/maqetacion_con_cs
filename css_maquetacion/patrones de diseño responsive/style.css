@@ -20,36 +20,29 @@ body{
 
 }
 .secundario{
-
-   
-    background-color: rgb(202, 8, 255);
-    
+    background-color: rgb(202, 8, 255); 
     width: 30%;
     white-space: 0.2em;
     order: 3;
-    
 }
-.tercero{
-    
+.tercero{ 
     background-color: rgb(71, 5, 81);
-    
     width: 20%;
-    order: 1;
-    
-} 
-
-    
+    order: 1;  
+}    
  p {
     margin: 1em ;
  }
-h1{
+*h1{
     margin: 1em;
+    text-align: center;
+
 }
 @media  screen and (max-width:600px) {
 
 
       .principal{
-             width:100vmax ;
+             width:100vw ;
              font-size: 1em;
              background-color: rgb(208, 208, 208);
              
@@ -62,6 +55,7 @@ h1{
         .tercero{
             width:100vw ;
             background-color:rgb(71, 5, 81); 
+           
             }
 }
 @media  screen and (min-width:601px) and (max-width:850px) {
@@ -85,5 +79,7 @@ h1{
        width:100vw ;
        background-color: rgb(71, 5, 81);
        order: 3;
+      
+       
        }
 }

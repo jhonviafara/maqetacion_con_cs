@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+.container {
+
+    display:flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    height: 100vh;
+}
+
+.principal{
+    
+    
+    background-color: rgb(208, 208, 208);
+    width:50%;
+    order: 2;
+
+}
+.secundario{
+
+   
+    background-color: rgb(202, 8, 255);
+    
+    width: 30%;
+    white-space: 0.2em;
+    order: 3;
+    
+}
+.tercero{
+    
+    background-color: rgb(71, 5, 81);
+    
+    width: 20%;
+    order: 1;
+    
+} 
+
+    
+ p {
+    margin: 1em ;
+ }
+h1{
+    margin: 1em;
+}
+@media  screen and (max-width:600px) {
+
+
+      .principal{
+             width:100vmax ;
+             font-size: 1em;
+             background-color: rgb(208, 208, 208);
+             
+        }
+        .secundario{
+            width:100vw ;
+            background-color: rgb(202, 8, 255);
+            
+           }
+        .tercero{
+            width:100vw ;
+            background-color:rgb(71, 5, 81); 
+            }
+}
+@media  screen and (min-width:601px) and (max-width:850px) {
+
+    .principal{
+        width:60vw ;
+        height: 80vh;
+        font-size: 1em;
+        background-color: rgb(208, 208, 208);
+        order: 2;
+        
+   }
+   .secundario{
+       width:40vw ;
+       height: 80vh;
+       background-color:rgb(202, 8, 255);
+       order: 1;
+       
+      }
+   .tercero{
+       width:100vw ;
+       background-color: rgb(71, 5, 81);
+       order: 3;
+       }
+}
